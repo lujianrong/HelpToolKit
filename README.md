@@ -15,6 +15,10 @@ LJRButtonTypeImgAtBottom            //图片在下 文字在上
 @interface LJRButton : UIButton
 
 ```objc
-+ (instancetype)btnWithType:(LJRButtonType)type frame:(CGRect)frame normalImage:(nullable NSString *)normalImage
-target:(id)target action:(SEL)action title:(nullable NSString *)title;
++ (instancetype)btnWithType:(LJRButtonType)type 
+                      frame:(CGRect)frame 
+                normalImage:(nullable NSString *)normalImage
+                     target:(id)target 
+                     action:(SEL)action 
+                      title:(nullable NSString *)title;
 ```
